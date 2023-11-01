@@ -18,7 +18,7 @@ export default function Home() {
     } catch (error) {
       setPubkey("");
       setBalance(0);
-      alert("not found wallet address");
+      alert("Invalid public key");
     }
   };
 
